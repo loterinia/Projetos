@@ -1,0 +1,42 @@
+PASSO Á PASSO PARA ALUNOS:
+
+1. Identificação da conta GitHub: 
+
+git config --global user.email "SeuEmailDoGitHub@exemplo.com"
+git config --global user.name "SeuNomeDeUsuárioDoGitHub"
+
+
+2. Inicialização do repositório localmente via CMD:
+
+cd caminho/do/seu/diretório
+git init
+
+
+3.Adicionar e fazer COMMIT do arquivo:
+
+
+git add nome-do-arquivo.extensão 
+git commit -m "Observações sobre o commit"
+
+
+4. Conectando o repositório local no GitHub:
+
+No GitHub, crie um novo repositório clicando no sinal de "new" no canto superior direito do site e selecionando "Novo repositório".
+Siga as instruções na página para configurar o repositório, incluindo nome, descrição e configurações de visibilidade.
+Copie o URL do repositório recém-criado.
+No terminal, adicione o repositório remoto ao seu repositório local usando o comando 
+
+git remote add origin https://github.com/SeuUsuáriGitHub/SeuRepositório
+
+
+5.Enviando as alterações para o GitHub:
+
+Use o comando git push para enviar as alterações do seu repositório local para o repositório remoto no GitHub:
+
+git push -u origin master
+
+
+Substitua main pelo nome do branch principal do seu repositório, caso esteja usando um nome diferente.
+Após seguir esses passos, o seu arquivo será enviado para o seu repositório no GitHub. Ele estará disponível no repositório remoto que você especificou.
+
+
